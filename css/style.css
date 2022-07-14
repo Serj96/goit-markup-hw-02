@@ -1,0 +1,162 @@
+
+body {
+    background-color: #ffffff;
+    
+
+    font-family: Roboto, Sans-serif;
+    letter-spacing: 0.03em;
+    font-style: 400;
+}
+
+ul {
+    list-style: none;
+}
+/* Hero */
+.hero-title {
+    color: #000000;
+}
+
+.hero h2 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+
+.hero-btn {
+    
+    color: #ffffff;
+    background-color: #2196F3;
+    }
+
+.logo {
+    color: #000000;
+        
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+
+
+}
+
+/* Nav-sidebar */
+.nav-sidebar a {
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.nav-sidebar a:hover,
+.nav-sidebar a:focus {
+    color: #2196F3;
+}
+
+/* Contacts */
+.contacts {
+    color: #757575;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color:#2196F3;
+}
+
+h1, h2, h3, h4 {
+    color: #212121;
+}
+/* Our teem */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.14;
+    text-align: center;
+    
+}
+/* Team h3 */
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}  
+
+.team p {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+/* Benrfits */
+.benefits p {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+/* Портфолио, Filtr */
+.filtr button {
+    cursor: pointer;
+    font-family: inherit;
+    color:#212121;
+    background-color: #F5F4FA;
+
+}
+
+.filtr button:hover,
+.filtr button:focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+/* Items */
+.items h3 {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+}
+
+.items p {
+ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+/* Footter */
+.footer-list address {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    
+
+}
+
+.footer-contacts {
+    color: #757575;
+
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;   
+}
+
