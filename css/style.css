@@ -5,7 +5,6 @@ body {
 
     font-family: Roboto, Sans-serif;
     letter-spacing: 0.03em;
-    font-style: 400;
 }
 
 ul {
@@ -32,6 +31,8 @@ ul {
     background-color: #2196F3;
     }
 
+
+/* Logo */
 .logo {
     color: #000000;
         
@@ -39,9 +40,10 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+}
 
-
-
+.span-logo {
+    color:#2196F3;
 }
 
 /* Nav-sidebar */
@@ -78,7 +80,7 @@ h1, h2, h3, h4 {
     color: #212121;
 }
 /* Our teem */
-h2 {
+main h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.14;
