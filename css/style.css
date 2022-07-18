@@ -144,17 +144,15 @@ main h2 {
 
 /* Footter */
 .footer-list address {
+
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    
-
 }
 
 .footer-contacts {
     color: #757575;
-
     
     font-weight: 500;
     font-size: 14px;
