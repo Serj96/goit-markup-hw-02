@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
       <!-- Logo, left side -->
       <a href="./index.html" class="logo"
@@ -28,23 +28,25 @@
           </li>
           <li><a href="">Контакты</a></li>
         </ul>
-        <!-- Right side -->
-        <ul class="nav-contacts">
-          <li>
-            <a class="contacts" href="mailti:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
       </nav>
+      <!-- Right side -->
+      <ul class="contacts">
+        <li>
+          <a class="contacts" href="mailti:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h2 class="hero-title">Эффективные решения для вашего бизнеса</h2>
+        <a href="./index.html"
+          ><h1 class="hero-title">Эффективные решения для вашего бизнеса</h1></a
+        >
         <button class="hero-btn" type="button">Заказать услугу</button>
       </section>
       <section>
@@ -152,6 +154,7 @@
         <ul class="footer-list">
           <li>
             <a
+              class="footer-link"
               href="https://goo.gl/maps/qTb6eRMcY3YhwPmg6"
               target="_blank"
               rel="noopener noreferrer"
@@ -159,11 +162,15 @@
               Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li class="footer-contacts">
-            <a href="mailti:info@devstudio.com">info@devstudio.com</a>
+          <li>
+            <a class="footer-link" href="mailti:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="footer-contacts">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li>
+            <a class="footer-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>

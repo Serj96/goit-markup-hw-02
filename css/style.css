@@ -1,5 +1,5 @@
 
-body {
+.body {
     background-color: #ffffff;
     
 
@@ -7,15 +7,24 @@ body {
     letter-spacing: 0.03em;
 }
 
+.footer {
+    background-color: #2F303A;
+}
+
 ul {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
 /* Hero */
 .hero-title {
     color: #000000;
 }
 
-.hero h2 {
+.hero h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -25,8 +34,15 @@ ul {
     text-transform: uppercase;
     }
 
-.hero-btn {
-    
+
+/* .hero-btn {
+    color: #ffffff;
+    background-color: #2196F3;
+} */
+
+.hero-btn:hover,
+.hero-btn:focus {
+    cursor: pointer;
     color: #ffffff;
     background-color: #2196F3;
     }
@@ -112,7 +128,7 @@ main h2 {
 }
 
 /* Портфолио, Filtr */
-.filtr button {
+.filtr-btn {
     cursor: pointer;
     font-family: inherit;
     color:#212121;
@@ -120,8 +136,16 @@ main h2 {
 
 }
 
-.filtr button:hover,
-.filtr button:focus {
+/* Prtfolio, h2, title-items */
+.title-items {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.14;
+    text-align:left;
+}
+
+.filtr-btn:hover,
+.filtr-btn:focus {
     color: #ffffff;
     background-color: #2196F3;
 }
@@ -143,12 +167,16 @@ main h2 {
 }
 
 /* Footter */
-.footer-list address {
 
-    font-family: 'Roboto';
+.footer .logo{
+    color: #ffffff;
+}
+.footer-list {
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
+
 }
 
 .footer-contacts {
@@ -158,5 +186,9 @@ main h2 {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;   
+}
+
+.footer-link {
+    color: #ffffff;
 }
 
