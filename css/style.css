@@ -1,10 +1,9 @@
 
 .body {
     background-color: #ffffff;
-    
-
     font-family: Roboto, Sans-serif;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .footer {
@@ -15,36 +14,45 @@ ul {
     list-style: none;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
+.hero {
+    background-color: #2F303A;
+ }
+
 /* Hero */
 .hero-title {
-    color: #000000;
-}
+    color: #ffffff;
 
-.hero h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
 
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    }
+}
 
 
-/* .hero-btn {
+.hero-btn {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.06em;
+
     color: #ffffff;
     background-color: #2196F3;
-} */
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
     cursor: pointer;
-    color: #ffffff;
-    background-color: #2196F3;
+    color: #2196F3;
+    background-color: #ffffff;
     }
 
 
@@ -63,7 +71,7 @@ a {
 }
 
 /* Nav-sidebar */
-.nav-sidebar a {
+.menu-list .link {
     letter-spacing: 0.02em;
     color: #212121;
 
@@ -72,19 +80,27 @@ a {
     line-height: 1.14;
 }
 
-.nav-sidebar a:hover,
-.nav-sidebar a:focus {
+ .menu-link:hover,
+ .menu-link:focus {
     color: #2196F3;
 }
 
+.menu-link:active{
+    font-weight: bold;
+    color: coral;
+}
+
+
+
 /* Contacts */
-.contacts {
+.contacts-list .contacts {
     color: #757575;
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts:hover,
@@ -92,11 +108,32 @@ a {
     color:#2196F3;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
     color: #212121;
 }
+
+/* Content */
+.content-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.14;
+}
+
 /* Our teem */
-main h2 {
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-p {
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.main-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.14;
@@ -104,22 +141,31 @@ main h2 {
     
 }
 /* Team h3 */
-.team h3 {
+.team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }  
 
-.team p {
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    
-}
+
 
 /* Benrfits */
-.benefits p {
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.p-benefits {
+    color: #757575;
     
     font-weight: 400;
     font-size: 14px;
@@ -127,14 +173,23 @@ main h2 {
 
 }
 
-/* Портфолио, Filtr */
+/* Портфолио, Filtr кнопка */
 .filtr-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+   
+    text-align: center;
+    letter-spacing: 0.03em;
+
     cursor: pointer;
     font-family: inherit;
     color:#212121;
     background-color: #F5F4FA;
 
 }
+
+
 
 /* Prtfolio, h2, title-items */
 .title-items {
@@ -150,19 +205,21 @@ main h2 {
     background-color: #2196F3;
 }
 /* Items */
-.items h3 {
-    
+.title-items {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.06em;
+
+    color: #212121;
 }
 
-.items p {
+.items-text {
+    color: #757575;
  
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
 }
 
@@ -171,21 +228,29 @@ main h2 {
 .footer .logo{
     color: #ffffff;
 }
-.footer-list {
-    
+
+
+.footer-list  {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
 
 }
-
-.footer-contacts {
+ 
+.footer-contact {
     color: #757575;
+    
     
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;   
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #2196F3;  
 }
 
 .footer-link {
