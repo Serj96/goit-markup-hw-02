@@ -80,7 +80,7 @@
 /* Nav-sidebar */
 .menu-list .link {
     letter-spacing: 0.02em;
-    color: var(--primery-tittle-color);
+    color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 14px;
@@ -88,16 +88,15 @@
 }
 
  .menu-link:hover,
- .menu-link:focus {
+ .menu-link:focus,
+ .menu-link:active {
     color: var(--accent-text-color);
 }
 
-.menu-link:active{
-    font-weight: bold;
-    color: coral;
+/* Подстветка текущей страницы */
+.current .menu-link{
+    color: var(--accent-text-color);
 }
-
-
 
 /* Contacts */
 .contacts-list .contacts {
@@ -246,7 +245,7 @@ h2, h3 {
 }
  
 .footer-contact {
-    color: var(--main-text-color);
+    color: rgba(255, 255, 255, 0.6);
     
     
     font-weight: 500;
